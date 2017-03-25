@@ -53,3 +53,10 @@ In order to draw a single line on the left and right lanes, I modified the draw_
     4  A robust lane-detectionand- tracking algorithm deals with the challenging scenarios such as a lane curvature, 
        lane changes, worn lane markings and emerging, merging, ending, and splitting lanes. our algorithm will not deal with    many of these 
     
+ -------   
+### Improvements
+
+   1. using a neural network for threshold determination for canny edge detection
+   2. using a neural network for hough transform approximations 
+   3. adding lane center detection 
+   4. better curve fitting algorithm selection 
