@@ -23,3 +23,25 @@ the pipeline consisted of the following steps
 3. Pass the Gaussian blured image to a canny edge detector with upper and lower threshold values this double thresholding helps in detecting only the images required 
 4. the image is then cropped so that the mask applied will hide all other edges except fot that of the lane 
 5. this masked image is then hough transformed for full feature extraction is , An image with lines drawn on it.
+
+-----
+
+In order to draw a single line on the left and right lanes, I modified the draw_lines() function by
+
+    1. reshaping the lines fit to a 2d matrix
+    
+    2. then creating an array of slopes
+    
+    3. remove nan and infinity from the lists
+    
+    4. converting lines into list of points
+    
+    5. moving all points with negative slopes into right "lane"
+    
+    6. moving all points with negative slopes into left "lane"
+    
+    7. calculate polynomial fit for the points in each lane
+    
+    8. use new curve function f(y) to calculate x values
+    
+
