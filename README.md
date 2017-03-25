@@ -15,9 +15,8 @@ The goals / steps of this project are the following:
 * Reflect on your work in a written report
 ----
 
-## Aims 
-
-The main properties that the lane marking (or boundary) detection techniques should possess are:
+### Aims 
+    The main properties that the lane marking (or boundary) detection techniques should possess are:
     1. The quality of lane detection should not be affected by shadows, which can be cast by trees, buildings, etc.
     2. It should be capable of processing the painted and unpainted roads. It should handle curved roads rather than
        assuming that the roads are straight.
