@@ -55,8 +55,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
     
  -------   
 ### Improvements
-
-   1. using a neural network for threshold determination for canny edge detection
-   2. using a neural network for hough transform approximations 
-   3. adding lane center detection 
-   4. better curve fitting algorithm selection 
+    1. using a neural network for threshold determination for canny edge detection
+    2. using a neural network for hough transform approximations 
+    3. adding lane center detection 
+    4. better curve fitting algorithm selection 
