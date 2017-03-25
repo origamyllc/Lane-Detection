@@ -38,4 +38,10 @@ In order to draw a single line on the left and right lanes, I modified the draw_
     
 
    
-
+The main properties that the lane marking (or boundary) detection techniques should possess
+are:
+· The quality of lane detection should not be affected by shadows, which can be cast by trees, buildings, etc.
+· It should be capable of processing the painted and unpainted roads. It should handle curved roads rather than
+  assuming that the roads are straight.
+· It should use the parallel constraint as a guidance to improve the detection of both sides of lane markings (or boundaries)   in the face of noises in the images.
+· It should produce an explicit measurement of the reliability of the results obtained.
