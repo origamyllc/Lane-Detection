@@ -15,6 +15,16 @@ The goals / steps of this project are the following:
 * Reflect on your work in a written report
 ----
 
+## Aims 
+
+The main properties that the lane marking (or boundary) detection techniques should possess are:
+    1. The quality of lane detection should not be affected by shadows, which can be cast by trees, buildings, etc.
+    2. It should be capable of processing the painted and unpainted roads. It should handle curved roads rather than
+       assuming that the roads are straight.
+    3. It should use the parallel constraint as a guidance to improve the detection of both sides of lane markings 
+       (or boundaries) in the face of noises in the images.
+----
+
 ### Reflection
 
     1. Convert the image to grey scale we do this because edge detection will not require the color information 
@@ -37,11 +47,4 @@ In order to draw a single line on the left and right lanes, I modified the draw_
     8. use new curve function f(y) to calculate x values
     
 
-   
-The main properties that the lane marking (or boundary) detection techniques should possess
-are:
-· The quality of lane detection should not be affected by shadows, which can be cast by trees, buildings, etc.
-· It should be capable of processing the painted and unpainted roads. It should handle curved roads rather than
-  assuming that the roads are straight.
-· It should use the parallel constraint as a guidance to improve the detection of both sides of lane markings (or boundaries)   in the face of noises in the images.
-· It should produce an explicit measurement of the reliability of the results obtained.
+    
