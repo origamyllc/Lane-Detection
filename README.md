@@ -49,6 +49,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
     1. much of the efficiency of the Hough transform is dependent on the quality of the input data: the edges must be detected        well for the Hough transform to be efficient. 
     2. the Hough transform must be used with great care to detect anything other than lines or circles.
-    3. the pipeline will not work well with a noisy images and selection for threshold values for the canny edge detector is a  trial and error metod
-    4. 
+    3. the pipeline will not work well with a noisy images and selection for threshold values for the canny edge detector is a        trial and error metod
+    4  A robust lane-detectionand- tracking algorithm deals with the challenging scenarios such as a lane curvature, 
+       lane changes, worn lane markings and emerging, merging, ending, and splitting lanes. our algorithm will not deal with    many of these 
     
